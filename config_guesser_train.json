@@ -1,0 +1,24 @@
+{
+    "cards_folder": "./data/cards/",
+    "output_json_path": "./data/descriptions.json",
+    "blip_model": {
+        "name": "Salesforce/blip-image-captioning-base"
+    },
+    "vit_model": {
+        "name": "nlpconnect/vit-gpt2-image-captioning"
+    },
+    "blip2_model": {
+        "name": "Salesforce/blip2-opt-2.7b"
+    },
+    "csv_path": "./data/dixit_full.csv",
+    "train_csv_path": "./data/X_train.csv",
+    "val_csv_path": "./data/X_val.csv",
+    "test_csv_path": "./data/X_test.csv",
+    "train_gt_csv_path": "./data//y_train.csv",
+    "val_gt_csv_path": "./data/y_val.csv",
+    "test_gt_csv_path": "./data/y_test.csv",
+    "checkpoint_dir": "./data/checkpoints",
+    "checkpoint_contrastiveloss_dir": "./data/checkpoints_contrastiveloss_5",
+    "embeddings_path": "./data/image_embeddings.pkl",
+    "model_name": "openai/clip-vit-base-patch32"
+}
