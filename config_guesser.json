@@ -1,0 +1,10 @@
+{
+    "cards_folder": "./data/cards/",
+    "embeddings_save_path": "./data/cards_embeddings.pt",
+    "clip_model_name": "openai/clip-vit-base-patch32",
+    "descriptions_file_path": "./data/descriptions.csv",
+    "checkpoint_path": "./data/checkpoints/checkpoints/checkpoints/best_model.pth",
+    "checkpoint_path_contrastiveloss": "./data/checkpoints/checkpoints_contrastiveloss/best_model.pth",
+    "llama_model_path": "meta-llama/Llama-2-7b-chat-hf",
+    "hf_token": "${HF_TOKEN}"
+}
