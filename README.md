@@ -27,6 +27,8 @@ This project implements an AI system that can play the board game Dixit. The age
 │   ├── config_guesser_train.json                   # Training configuration
 │   └── config_storyteller.json                     # Storyteller configuration
 └── README.md
+└── LICENSE
+
 ```
 
 ## Usage
