@@ -47,7 +47,7 @@ doi = {10.1145/3555858.3555863}
 ```
 
 The dataset contains information about 116,226 rounds of Dixit games, including storyteller hints, played cards, ground truth cards, and voting information. This data was used to train the guesser model.
-The dataset is publicly available at: http://www.spronck.net/datasets/Dixit_AI_data.zip
+The dataset is publicly available at: https://www.spronck.net/datasets/Dixit_AI_data.zip
 
 ## Usage
 
