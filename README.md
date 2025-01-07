@@ -31,6 +31,25 @@ This project implements an AI system that can play the board game Dixit. The age
 
 ```
 
+## Data
+The gameplay dataset used in this project comes from boiteajeux.net, as collected and processed in:
+
+```bibtex
+@inproceedings{10.1145/3555858.3555863,
+author = {Vatsakis, Dimitris and Mavromoustakos-Blom, Paris and Spronck, Pieter},
+title = {An Internet-assisted Dixit-playing AI},
+year = {2022},
+publisher = {Association for Computing Machinery},
+booktitle = {Proceedings of the 17th International Conference on the Foundations of Digital Games},
+series = {FDG '22},
+doi = {10.1145/3555858.3555863}
+}
+```
+
+The dataset contains information about 116,226 rounds of Dixit games, including storyteller hints, played cards, ground truth cards, and voting information. This data was used to train the guesser model.
+
+The data can be found in `data/` directory after setup.
+
 ## Usage
 
 ### Generate Card Descriptions
